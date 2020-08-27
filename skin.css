@@ -3148,3 +3148,13 @@ RESPONSIVE
                 background-color: #ffffff;
                 color: #000000!important;
             }
+            
+            .minus-icon {
+                max-width: 15%;
+                padding-right: 5%;
+            }
+            
+            .news-icon {
+                width: 5%;
+                padding-left: 5px;
+            }

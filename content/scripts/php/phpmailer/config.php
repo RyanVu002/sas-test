@@ -1,7 +1,7 @@
 <?php
 /**
  * ======================================
- * HTWF - SMTP CONFIG FILE
+ * content - SMTP CONFIG FILE
  * ======================================
  *
  * From this file you can set SMTP informations.
