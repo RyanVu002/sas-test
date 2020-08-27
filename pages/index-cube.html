@@ -743,19 +743,22 @@
                     <div class="row propo" data-anima="fade-bottom">
                         <div class="col-md-6">
                             <h2>Contacts us</h2>
-                            <p>
-                                Lorem ipsum d oris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore.
-                            </p>
-                            <hr class="space s" />
-                            <ul class="fa-ul ">
-                                <li><i class="fa-li im-marker"></i> Street Carbone 25/A, London, UK</li>
-                                <li><i class="fa-li im-phone"></i> (+05) 320-3256472</li>
-                                <li><i class="fa-li im-fax"></i> (+05) 320-3256475</li>
-                                <li><i class="fa-li im-envelope"></i> contacts@example.com</li>
-                            </ul>
-                            <hr class="space m" />
-                            <hr class="space xs" />
-                            <a href="#" class="btn btn-sm">Write us now</a>
+
+                            <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
+                                <div class="form-group">
+                                    <label class="form-label" id="nameLabel" for="name"></label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" id="emailLabel" for="email"></label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" id="messageLabel" for="message"></label>
+                                    <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>
+                                </div>
+                            </form>
+                            <a href="#" class="btn-border btn btn-sm anima">Submit</a>
                         </div>
 
                         <div class="col-md-6">
@@ -766,7 +769,7 @@
             </div>
         </div>
         <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
-        <footer class="footer-parallax bg-white">
+        <footer class="footer-parallax background-banner">
             <div class="content">
                 <div class="container">
                     <div class="row">
@@ -793,11 +796,13 @@
                                     <i class="fa fa-linkedin text-s"></i>
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row copy-row">
-                        <div class="col-md-12 copy-text">
-                            © 2018 Structura - One page minimal template <span>Handmade by <a href="http://schiocco.com/">schiocco.com</a></span>
+                            <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
+                                <div class="form-group">
+                                    <label class="form-label" id="nameLabel" for="name"></label>
+                                    <input style="width: 80%; float: right;" type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

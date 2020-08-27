@@ -52,7 +52,6 @@ COLORS
             h3,
             h4,
             .nav.inner li a,
-            footer .tag-row a,
             .nav-tabs>li.active>a,
             .nav-tabs>li>a:hover,
             .nav-tabs>li>a:hover,
@@ -428,7 +427,7 @@ LAYOUT & TYPOGRAPHY
             }
             
             .circle-button {
-                border-radius: 60px;
+                border-radius: 50px;
             }
             
             .btn+.btn-text {
@@ -535,7 +534,6 @@ CUSTOM CLASSES
                 left: 0;
                 right: 0;
                 height: 100%;
-                background: url(images/dot.png) 0 0 repeat;
                 z-index: -1;
             }
             
@@ -3056,7 +3054,7 @@ RESPONSIVE
             }
             
             .footer-img {
-                margin: 10% 0 0 0;
+                margin: 10% 0px auto 0px !important;
                 border-radius: 50px 50px 50px 0px;
             }
             
@@ -3081,8 +3079,6 @@ RESPONSIVE
             .navbar-right {
                 float: right;
             }
-            
-            .btn-nav-border {}
             
             .btn-nav {
                 margin-top: 25px!important;
@@ -3110,4 +3106,27 @@ RESPONSIVE
             
             .container-banner {
                 background-color: #006665;
+            }
+            
+            .form-group .form-control {
+                -webkit-box-shadow: none;
+                border-radius: 10px;
+                border-color: #a3a3a3;
+            }
+            
+            .form-group .form-control:focus {
+                box-shadow: none;
+                border-color: #484848;
+            }
+            
+            footer .tag-row a {
+                color: #ffffff;
+            }
+            
+            .social-group a {
+                filter: brightness(0) invert(1);
+            }
+            
+            .social-group a:hover {
+                filter: none;
             }
