@@ -990,8 +990,7 @@ header.hamburger-header {
 .navbar-brand img {
     transition: all .3s;
     max-height: 200%;
-    -webkit-filter: grayscale(100%);
-    filter: white(100%);
+    filter: brightness(0) invert(1);
 }
 
 .navbar-brand.scroll-show.showed {
@@ -4317,7 +4316,6 @@ TEXT LIST
 
 .list-items .list-item {
     padding: 10px 0;
-    border-bottom: 1px dashed #E6E6E6;
     transition: padding .3s;
 }
 
