@@ -138,7 +138,9 @@ COLORS
             
             .btn-border:hover,
             .pagination>li>a i:before {
-                background-color: #cfa69f!important;
+                background-color: #dadada!important;
+                border-color: #dadada!important;
+                color: #000000!important;
             }
             
             .flex-direction-nav a:before,
@@ -3054,7 +3056,8 @@ RESPONSIVE
             }
             
             .footer-img {
-                margin: 10% 0px auto 0px !important;
+                width: 80%!important;
+                margin: 5% 0px auto 0px !important;
                 border-radius: 50px 50px 50px 0px;
             }
             
@@ -3129,4 +3132,19 @@ RESPONSIVE
             
             .social-group a:hover {
                 filter: none;
+            }
+            
+            .btt-news {
+                width: 65%;
+                background-color: #1d7776;
+                color: #ffffff!important;
+                border-color: #1d7776;
+                border: none;
+                height: 35px;
+                border-radius: 5px;
+            }
+            
+            .btt-news:hover {
+                background-color: #ffffff;
+                color: #000000!important;
             }
